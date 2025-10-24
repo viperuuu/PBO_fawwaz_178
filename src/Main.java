@@ -8,8 +8,11 @@ public class Main {
         String nama = scanner.nextLine();
         System.out.print("masukan umur anda: ");
         String umur = scanner.nextLine();
+        System.out.println("masukan nim anda: ");
+        String nim = scanner.nextLine();
         System.out.println("halo nama saya: " + nama);
         System.out.println("umur saya: " + umur);
+        System.out.println("nim anda: " + nim);
         System.out.print("masukan nilai anda: ");
         String nilai = scanner.nextLine();
         int nilaiInt = Integer.parseInt(nilai);
